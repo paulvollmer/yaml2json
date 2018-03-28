@@ -1,0 +1,10 @@
+project_name: yaml2json
+builds:
+  - binary: yaml2json
+    goos:
+      - windows
+      - darwin
+      - linux
+    goarch:
+      - amd64
+      - 386
